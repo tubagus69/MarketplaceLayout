@@ -14,11 +14,7 @@ public class ProfileActivity extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
 
     }
-    public void clickProfile(View view) {
-        Intent intent = new Intent(ProfileActivity.this, ProfileActivity.class);
-        startActivity(intent);
-        finish();
-    }
+
     public void clickKembaliLogin1(View view) {
         Intent intent = new Intent(ProfileActivity.this, LoginActivity.class);
         startActivity(intent);
